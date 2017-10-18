@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F5"
+    tools:context="com.yuandong.db.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tv_insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:text="insert user"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/tv_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="query user"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/tv_insert_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="insert job"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/tv_query_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="query job"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/tv_query_mass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="mass query"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/tv_insert_mass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="mass insert"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/tv_insert_query_mass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="mass insert query"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
